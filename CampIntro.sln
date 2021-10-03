@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampIntro", "CampIntro\CampIntro.csproj", "{660D9722-AB3F-4479-A7F7-1EE282027F60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CampIntro", "CampIntro\CampIntro.csproj", "{660D9722-AB3F-4479-A7F7-1EE282027F60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{4DF2D6A5-9D08-4949-913B-47363992663D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj", "{4DF2D6A5-9D08-4949-913B-47363992663D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassIntro", "ClassIntro\ClassIntro.csproj", "{BF869E62-8CEC-4624-BD45-10FBC87C23E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassIntro", "ClassIntro\ClassIntro.csproj", "{BF869E62-8CEC-4624-BD45-10FBC87C23E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{D6DA2CD7-4597-44FE-9FEF-F6C086901EFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{D6DA2CD7-4597-44FE-9FEF-F6C086901EFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DegerveReferansTipler", "DegerveReferansTipler\DegerveReferansTipler.csproj", "{2FC20630-7B39-4BF8-B15F-DBCFC1CBF68D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegerveReferansTipler", "DegerveReferansTipler\DegerveReferansTipler.csproj", "{2FC20630-7B39-4BF8-B15F-DBCFC1CBF68D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1", "OOP1\OOP1.csproj", "{82B52BC4-AA98-4D38-AF97-A12C750A8849}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP1", "OOP1\OOP1.csproj", "{82B52BC4-AA98-4D38-AF97-A12C750A8849}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{1321A49D-DFDD-42B8-85E2-0FE8D1240704}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{82B52BC4-AA98-4D38-AF97-A12C750A8849}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82B52BC4-AA98-4D38-AF97-A12C750A8849}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82B52BC4-AA98-4D38-AF97-A12C750A8849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1321A49D-DFDD-42B8-85E2-0FE8D1240704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1321A49D-DFDD-42B8-85E2-0FE8D1240704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1321A49D-DFDD-42B8-85E2-0FE8D1240704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1321A49D-DFDD-42B8-85E2-0FE8D1240704}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
