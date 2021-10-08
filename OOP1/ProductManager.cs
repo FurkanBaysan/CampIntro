@@ -13,7 +13,7 @@ namespace OOP1
 
         public void Update(Product product)
         {
-            Console.WriteLine("product name:" + " " + product.productName + " -> " + "updated");
+            Console.WriteLine("product name:" + " " + product.productName + " -> " + "updated in database");
         }
 
         public void Delete(Product product)

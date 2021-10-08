@@ -17,7 +17,7 @@ namespace OOP1
             firstProduct.unitsInStock = 3;
 
             // Second way to reach and assign values to secondProduct Object attributes. 5-> represents Kitap ve Kırtasiye Category.
-            Product secondProduct = new Product { id = 2, categoryId = 5, unitsInStock = 5, productName = "Operating System Concepts, Book", unitPrice = 35 };
+            Product secondProduct = new Product { id = 2, categoryId = 5, unitsInStock = 5, productName = "Operating System Concepts, Book", unitPrice = 300 };
 
             //third way to reach and assign values to thirdProduct Object attributes. - Constructor
             Product thirdProduct = new Product(3, 7, "Zara Men Black,Sweatshirt", 200, 100);

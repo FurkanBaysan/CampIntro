@@ -20,6 +20,7 @@ namespace Collections
             Console.WriteLine("---------");
 
             Console.WriteLine("Random Access Case:");
+
             names[3] = "Selenay";
             Console.WriteLine(names[3]);
 
@@ -32,13 +33,16 @@ namespace Collections
             // Sebebi düz,nornmal Array yapılarında Dynamic Memory Allocation'ın vuku bulmaması.
 
 
-            Console.WriteLine("-------");
+            Console.WriteLine("---------");
             Console.WriteLine("Lack of Dynamic Memory Allocation Case:");
+
+
             names = new string[5];
             names[4] = "Kaan";
             Console.WriteLine(names[4]);
 
-            Console.WriteLine("---------------");
+            Console.WriteLine("----------------------------");
+            Console.WriteLine("In presence of  Dynamic Memory Allocation:");
 
 
             List<string> names2 = new List<string> { "Furkan", "Anil", "Velo", "Selenay" };
@@ -54,7 +58,7 @@ namespace Collections
             Console.WriteLine(names2[4]);
             Console.WriteLine(names2[0]);
 
-            //Bu sefer patlamadık, çünkü dynamic memory allocation vuku buldu.      
+            //Bu sefer patlamadık, çünkü dynamic memory allocation vuku buldu.
 
 
 
