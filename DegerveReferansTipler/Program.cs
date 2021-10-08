@@ -14,6 +14,7 @@ namespace DegerveReferansTipler
             Console.WriteLine(number1);
 
 
+
             // shallow-copy
             int[] numbers1 = new int[] { 10, 20, 30 };
             int[] numbers2 = new int[] { 100, 200, 300 };
