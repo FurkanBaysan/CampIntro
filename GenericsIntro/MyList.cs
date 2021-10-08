@@ -34,5 +34,19 @@ namespace GenericsIntro
                 Console.WriteLine(items[i]);
             }
         }
+
+
+
+        public int Length // Works for Printing the number of items (elements) in items array.
+        {
+            get { return items.Length; }
+        }
+
+        public T[] Items //  Works for Listing the items (elements) in items array.
+        {
+            get { return items; }
+        }
+
+
     }
 }
