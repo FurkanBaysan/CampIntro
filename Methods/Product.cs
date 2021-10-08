@@ -14,5 +14,6 @@ namespace Methods
         public string reductionRate;
         public string color;
 
+
     }
 }
