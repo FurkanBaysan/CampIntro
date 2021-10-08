@@ -13,6 +13,7 @@ namespace CampIntro
             bool loggedintoSystemorNot = true;
 
 
+
             double yesterdayDolar = 7.35;
             double todayDolar = 7.15;
 

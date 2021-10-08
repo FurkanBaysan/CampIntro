@@ -17,6 +17,7 @@ namespace ClassIntro
             secondCourse.completionRate = 65.0;
 
 
+
             Console.WriteLine("course name:" + firstCourse.courseName + " " + "instructor name:" + " " + firstCourse.instructorName + " " + "completion rate: " + firstCourse.completionRate);
             Console.WriteLine("course name:" + secondCourse.courseName + " " + "instructor name:" + " " + secondCourse.instructorName + " " + "completion rate: " + secondCourse.completionRate);
 
