@@ -16,6 +16,7 @@ namespace Loops
 
 
             bringmyCourses(courses);
+            Console.WriteLine("-----------");
 
 
             for (int i = 0; i < courses.Length; i++)

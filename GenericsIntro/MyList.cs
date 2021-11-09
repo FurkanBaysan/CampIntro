@@ -37,13 +37,15 @@ namespace GenericsIntro
 
 
 
-        public int Length // Works for Printing the number of items (elements) in items array.
-        {
+        public int Length
+        { // Works for Printing the number of items (elements) in items array.
+
             get { return items.Length; }
         }
 
-        public T[] Items //  Works for Listing the items (elements) in items array.
-        {
+        public T[] Items
+        { //  Works for Listing the items (elements) in items array.
+
             get { return items; }
         }
 

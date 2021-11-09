@@ -30,7 +30,7 @@ namespace Collections
             //Console.WriteLine(names[4]);
 
             //Bunu yaptığımız anda -> System.IndexOutOfRangeException hatası alırız.
-            // Sebebi düz,nornmal Array yapılarında Dynamic Memory Allocation'ın vuku bulmaması.
+            // Sebebi düz,normal Array yapılarında Dynamic Memory Allocation'ın vuku bulmaması.
 
 
             Console.WriteLine("---------");

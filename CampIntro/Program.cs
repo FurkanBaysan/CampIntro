@@ -9,34 +9,25 @@ namespace CampIntro
             string categoryLabel = "Kategori";
             int studentNumber = 32000;
             double interestRate = 1.45;
-
-            bool loggedintoSystemorNot = true;
-
-
-
+            bool isLoggedIntoSystemOrNot = true;
             double yesterdayDolar = 7.35;
             double todayDolar = 7.15;
 
-            if (yesterdayDolar > todayDolar)
-            {
+            if (yesterdayDolar > todayDolar) {
                 Console.WriteLine("Decrease button");
             }
-            else if (yesterdayDolar < todayDolar)
-            {
+            else if (yesterdayDolar < todayDolar) {
                 Console.WriteLine("Increase button");
             }
-            else
-            {
+            else {
                 Console.WriteLine("Equal button");
             }
 
-            if (loggedintoSystemorNot == true)
-            {
+            if (isLoggedIntoSystemOrNot == true) {
                 Console.WriteLine("myCourses button");
                 // <button>User Settings</button>
             }
-            else
-            {
+            else {
                 Console.WriteLine("Login button");
             }
 
