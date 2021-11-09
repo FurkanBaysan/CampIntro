@@ -14,7 +14,6 @@ namespace Loops
                 "Programlamaya Giris Kursu",
                 "Yazilim Gelistirici Yetistirme Kampi Java ve React" };
 
-
             bringmyCourses(courses);
             Console.WriteLine("-----------");
 
