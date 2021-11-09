@@ -11,8 +11,6 @@ namespace Methods
             Product firstProduct = new Product();
             Product secondProduct = new Product();
 
-
-
             firstProduct.id = 1;
             firstProduct.brand = "Huawei";
             firstProduct.productName = "Matebook X Pro";
