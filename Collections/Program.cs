@@ -16,7 +16,6 @@ namespace Collections
                 Console.WriteLine(name);
             }
 
-
             Console.WriteLine("---------");
 
             Console.WriteLine("Random Access Case:");
