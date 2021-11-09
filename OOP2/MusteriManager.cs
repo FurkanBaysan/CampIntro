@@ -6,7 +6,7 @@ namespace OOP2
 {
     class MusteriManager
     {
-        public void Add()
+        public void Add(Musteri musteri)
         {
 
         }
