@@ -13,24 +13,28 @@ namespace CampIntro
             double yesterdayDolar = 7.35;
             double todayDolar = 7.15;
 
-            if (yesterdayDolar > todayDolar) {
+            if (yesterdayDolar > todayDolar)
+            {
                 Console.WriteLine("Decrease button");
             }
-            else if (yesterdayDolar < todayDolar) {
+            else if (yesterdayDolar < todayDolar)
+            {
                 Console.WriteLine("Increase button");
             }
-            else {
+            else
+            {
                 Console.WriteLine("Equal button");
             }
 
-            if (isLoggedIntoSystemOrNot == true) {
+            if (isLoggedIntoSystemOrNot == true)
+            {
                 Console.WriteLine("myCourses button");
                 // <button>User Settings</button>
             }
-            else {
+            else
+            {
                 Console.WriteLine("Login button");
             }
-
             Console.WriteLine(categoryLabel);
         }
     }
