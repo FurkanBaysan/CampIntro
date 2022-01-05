@@ -14,7 +14,7 @@ namespace Loops
                 "Programlamaya Giris Kursu",
                 "Yazilim Gelistirici Yetistirme Kampi Java ve React" };
 
-            bringmyCourses(courses);
+            bringMyCourses(courses);
             Console.WriteLine("-----------");
 
 
@@ -36,7 +36,7 @@ namespace Loops
 
 
         }
-        public static void bringmyCourses(string[] courses)
+        public static void bringMyCourses(string[] courses)
         {
             string[] myCourses = new string[]
             {
